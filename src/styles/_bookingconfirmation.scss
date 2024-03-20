@@ -1,0 +1,22 @@
+@use "Variables" as v;
+
+.booking-confirmation {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: v.$light-color;
+  color: v.$primary-color;
+
+  @media (max-width: v.$tablet) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: v.$light-color;
+    color: v.$primary-color;
+  }
+}
